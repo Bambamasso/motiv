@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Inter&family=Tangerine:wght@700&display=swap');
+
+body{
+padding: 0;
+margin: 0;
+}
+*{
+
+}
+nav{width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: rgba(255, 0, 0, 0.667);
+}
+
+p{
+    font-size: 35px;
+    font-family: 'Fredericka the Great', cursive;
+    color: rgba(157, 5, 5, 0.795);
+}
+ul li{
+display: inline;
+margin-left:30px ;
+}
+a{
+text-decoration: none;
+color: white;
+font-size: 25px;
+font-family: 'Tangerine', cursive;
+
+}
+
+
+  .mov{
+    position: relative;
+    top: 50px;
+    width: 50%;
+    height: 450px;
+    margin-bottom: 50px;
+    background: url(../img/PHP\ 5\ Cours\ et\ Exercices.jpeg);
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+ .p{
+    color: white;
+    font-family: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 120px;
+ }
